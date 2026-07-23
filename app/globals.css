@@ -453,7 +453,7 @@ td > small { margin-top: 3px; color: #7e8986; }
   display: grid;
   grid-template-columns: 1.25fr .75fr;
   gap: 72px;
-  align-items: end;
+  align-items: start;
   padding-block: 38px 26px;
 }
 .home-intro h1 {
