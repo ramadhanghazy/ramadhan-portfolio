@@ -22,8 +22,8 @@ export default function Home() {
       <main className="home-main">
         <section className="home-intro wrap">
           <div>
-            <p className="home-kicker">PORTFOLIO</p>
-            <h1>Internal tools, dashboards, and small web apps.</h1>
+            <h1>Portfolio</h1>
+            <p className="home-scope">Internal tools, dashboards, and small web apps.</p>
           </div>
           <div className="home-intro-copy">
             <p>Two working examples covering a web dashboard and a private Android reading app.</p>
