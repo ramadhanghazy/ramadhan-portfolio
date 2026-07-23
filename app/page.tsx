@@ -15,33 +15,33 @@ export default function Home() {
       <main>
         <section className="hero wrap">
           <div className="hero-copy">
-            <p className="eyebrow"><span className="status-dot" /> Available for focused projects</p>
-            <h1>Software that makes the next step obvious.</h1>
+            <p className="eyebrow">RAMADHAN GHAZY HENANTO · SOFTWARE PROJECTS</p>
+            <h1>Internal tools and small web applications.</h1>
             <p className="hero-lede">
-              I build web apps, dashboards, and automation with AI assistance—then verify
-              the details with real tests and careful human review.
+              I build focused software for repetitive business work: dashboards, data
+              processing, and simple automation.
             </p>
             <div className="button-row">
-              <Link className="button primary" href="/clientops">Explore the live dashboard <span aria-hidden>↗</span></Link>
+              <Link className="button primary" href="/clientops">View ClientOps demo <span aria-hidden>↗</span></Link>
               <a className="button secondary" href="https://github.com/ramadhanghazy">View GitHub <span aria-hidden>↗</span></a>
             </div>
           </div>
-          <aside className="hero-proof" aria-label="Working principles">
-            <p className="proof-label">HOW I WORK</p>
+          <aside className="hero-proof" aria-label="Portfolio contents">
+            <p className="proof-label">IN THIS PORTFOLIO</p>
             <ol>
-              <li><span>01</span><div><strong>Start with the workflow</strong><small>Clarify the user, friction, and measurable outcome.</small></div></li>
-              <li><span>02</span><div><strong>Build the smallest useful system</strong><small>Keep scope tight, states complete, and data honest.</small></div></li>
-              <li><span>03</span><div><strong>Verify before handoff</strong><small>Test behavior, responsive layouts, and failure cases.</small></div></li>
+              <li><span>01</span><div><strong>ClientOps</strong><small>A working sales pipeline dashboard with filters, metrics, and CSV export.</small></div></li>
+              <li><span>02</span><div><strong>BacaDengar</strong><small>A private Android app for local books and audio, documented as a case study.</small></div></li>
+              <li><span>03</span><div><strong>Source and tests</strong><small>Public implementation, test coverage, and clear notes about private material.</small></div></li>
             </ol>
           </aside>
         </section>
 
         <section className="proof-strip" aria-label="Portfolio highlights">
           <div className="wrap proof-grid">
-            <div><strong>02</strong><span>End-to-end case studies</span></div>
-            <div><strong>60</strong><span>Synthetic CRM records</span></div>
-            <div><strong>03</strong><span>Responsive breakpoints checked</span></div>
-            <div><strong>0</strong><span>Real customer records exposed</span></div>
+            <div><strong>WEB</strong><span>Next.js and TypeScript</span></div>
+            <div><strong>APP</strong><span>Kotlin and Jetpack Compose</span></div>
+            <div><strong>QA</strong><span>Logic, route, and responsive checks</span></div>
+            <div><strong>SAFE</strong><span>Synthetic public data only</span></div>
           </div>
         </section>
 
@@ -49,9 +49,9 @@ export default function Home() {
           <div className="section-heading">
             <div>
               <p className="eyebrow">SELECTED WORK</p>
-              <h2>Two products. Two kinds of proof.</h2>
+              <h2>Projects</h2>
             </div>
-            <p>One live operational tool and one documented private application—chosen to show product judgment, implementation, and verification.</p>
+            <p>ClientOps is a public working demo. BacaDengar is a private Android project documented without exposing its repository or book content.</p>
           </div>
 
           <div className="work-grid">
@@ -104,9 +104,9 @@ export default function Home() {
 
         <section className="section approach-section">
           <div className="wrap split-heading">
-            <div><p className="eyebrow">A PRACTICAL PARTNER</p><h2>AI-assisted.<br />Human-verified.</h2></div>
+            <div><p className="eyebrow">SERVICES</p><h2>What I can build</h2></div>
             <div className="approach-copy">
-              <p>I use AI to accelerate implementation and exploration. I remain responsible for the brief, decisions, review, testing, and final handoff.</p>
+              <p>Small, well-defined software projects for teams that have outgrown a manual spreadsheet or repeated copy-paste work.</p>
               <div className="capability-grid">
                 <div><span>01</span><h3>Operational dashboards</h3><p>Turn messy tables and recurring checks into a focused interface.</p></div>
                 <div><span>02</span><h3>Internal web tools</h3><p>Small systems with deliberate states, validation, and export paths.</p></div>
@@ -118,10 +118,10 @@ export default function Home() {
         </section>
 
         <section className="contact-block wrap">
-          <p className="eyebrow">LET&apos;S BUILD SOMETHING USEFUL</p>
-          <h2>Have a workflow that feels harder than it should?</h2>
-          <p>See the implementation behind this portfolio, then start a conversation through GitHub.</p>
-          <a className="button light" href="https://github.com/ramadhanghazy">Visit @ramadhanghazy on GitHub <span aria-hidden>↗</span></a>
+          <p className="eyebrow">CONTACT</p>
+          <h2>Code and project details are on GitHub.</h2>
+          <p>Review the repository, tests, and implementation notes.</p>
+          <a className="button light" href="https://github.com/ramadhanghazy">Open GitHub <span aria-hidden>↗</span></a>
         </section>
       </main>
       <SiteFooter />

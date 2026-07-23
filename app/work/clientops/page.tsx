@@ -16,8 +16,8 @@ export default function ClientOpsCaseStudy() {
           <div className="wrap case-hero-grid">
             <div>
               <p className="eyebrow">CLIENTOPS · WEB APPLICATION · 2026</p>
-              <h1>A daily operating view for a growing sales pipeline.</h1>
-              <p>ClientOps consolidates lead status, value, ownership, and next actions into one responsive, filterable workspace.</p>
+              <h1>A sales dashboard for keeping follow-ups visible.</h1>
+              <p>ClientOps puts lead status, value, ownership, and next actions in one responsive workspace.</p>
               <div className="button-row"><Link className="button coral" href="/clientops">Open the live product ↗</Link><a className="button dark-outline" href="https://github.com/ramadhanghazy/ramadhan-portfolio">View source ↗</a></div>
             </div>
             <div className="case-stat-block">
@@ -29,19 +29,19 @@ export default function ClientOpsCaseStudy() {
         </section>
 
         <section className="case-summary wrap">
-          <div><span>ROLE</span><p>Independent builder using AI-assisted implementation and hands-on review</p></div>
+          <div><span>ROLE</span><p>Product scope, implementation, testing, and documentation</p></div>
           <div><span>STACK</span><p>Next.js, TypeScript, D1, Cloudflare Workers</p></div>
           <div><span>FOCUS</span><p>Data clarity, responsive UX, export workflow, tests</p></div>
         </section>
 
         <section className="case-section wrap narrative-grid">
-          <div><p className="eyebrow">THE PROBLEM</p><h2>Lead data is easy to collect. Momentum is harder to see.</h2></div>
-          <div><p>Small teams often track opportunities in a spreadsheet that grows faster than the operating habits around it. The data exists, but the next action is buried among columns, inconsistent labels, and stale follow-up dates.</p><p>The brief was deliberately narrow: create a useful command center that answers four questions quickly—how much is in the active pipeline, which leads need attention, who owns each opportunity, and what should happen next?</p></div>
+          <div><p className="eyebrow">THE PROBLEM</p><h2>A lead list does not show what needs attention.</h2></div>
+          <div><p>Small teams often track opportunities in spreadsheets. As the list grows, follow-up dates, ownership, and deal status become harder to review.</p><p>ClientOps was scoped to answer four questions: how much is in the active pipeline, which leads need attention, who owns each opportunity, and what should happen next?</p></div>
         </section>
 
         <section className="case-feature dark-case">
           <div className="wrap">
-            <div className="section-heading light-heading"><div><p className="eyebrow">THE PRODUCT</p><h2>Designed around decisions, not decoration.</h2></div><p>Every interface element supports a recurring sales operation: review, narrow, prioritize, inspect, and export.</p></div>
+            <div className="section-heading light-heading"><div><p className="eyebrow">THE PRODUCT</p><h2>Core workflow</h2></div><p>The dashboard supports five repeated actions: review, filter, prioritize, inspect, and export.</p></div>
             <div className="feature-grid">
               <article><span>01</span><h3>Scan the whole pipeline</h3><p>Four KPIs and stage distribution establish context before the user reaches the lead table.</p></article>
               <article><span>02</span><h3>Narrow without losing context</h3><p>Search and filters sync to the URL, making focused views reproducible and shareable.</p></article>
@@ -52,7 +52,7 @@ export default function ClientOpsCaseStudy() {
         </section>
 
         <section className="case-section wrap">
-          <div className="section-heading"><div><p className="eyebrow">SYSTEM DESIGN</p><h2>One data source, three read paths.</h2></div><p>D1 stores the structured lead records. Server routes produce paginated lists, aggregate metrics, and filtered CSV output.</p></div>
+          <div className="section-heading"><div><p className="eyebrow">SYSTEM DESIGN</p><h2>Architecture</h2></div><p>D1 stores the lead records. Server routes return paginated lists, aggregate metrics, and filtered CSV output.</p></div>
           <div className="architecture" aria-label="ClientOps architecture diagram">
             <div><span>INTERFACE</span><strong>Responsive dashboard</strong><small>Filters · Table · Drawer · States</small></div><b>→</b>
             <div><span>SERVER</span><strong>Next.js route handlers</strong><small>Validation · Metrics · CSV</small></div><b>→</b>
@@ -62,7 +62,7 @@ export default function ClientOpsCaseStudy() {
 
         <section className="case-section warm-section">
           <div className="wrap narrative-grid">
-            <div><p className="eyebrow">VERIFICATION</p><h2>The demo includes the states real tools tend to forget.</h2></div>
+            <div><p className="eyebrow">VERIFICATION</p><h2>Tests and interface states</h2></div>
             <div>
               <ul className="check-list">
                 <li><span>✓</span><div><strong>Logic tests</strong><p>Query parsing, sorting, pagination, KPI calculations, and CSV escaping.</p></div></li>
@@ -75,7 +75,7 @@ export default function ClientOpsCaseStudy() {
         </section>
 
         <section className="next-project wrap">
-          <p className="eyebrow">NEXT CASE STUDY</p><h2>BacaDengar: a private, local-first Android reading app.</h2><Link className="button primary" href="/work/bacadengar">Read BacaDengar case study →</Link>
+          <p className="eyebrow">NEXT PROJECT</p><h2>BacaDengar Android app</h2><Link className="button primary" href="/work/bacadengar">Read the case study →</Link>
         </section>
       </main>
       <SiteFooter />

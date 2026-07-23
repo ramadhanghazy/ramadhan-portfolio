@@ -125,7 +125,7 @@ export function ClientOpsDashboard() {
 
       <main className="dashboard-main">
         <div className="dashboard-title">
-          <div><p className="overline">OVERVIEW · JULY 2026</p><h1>Pipeline command center</h1><p>Track momentum, surface follow-ups, and keep every lead moving.</p></div>
+          <div><p className="overline">OVERVIEW · JULY 2026</p><h1>Sales pipeline overview</h1><p>Review current value, ownership, stages, and upcoming follow-ups.</p></div>
           <a className="export-button" href={`/api/leads/export.csv?${params.toString()}`} download>Export filtered CSV <span>↓</span></a>
         </div>
 

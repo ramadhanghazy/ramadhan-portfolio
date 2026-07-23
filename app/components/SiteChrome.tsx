@@ -22,7 +22,7 @@ export function SiteFooter() {
     <footer className="site-footer">
       <div className="wrap">
         <p>© 2026 Ramadhan Ghazy Henanto</p>
-        <p>Built with AI assistance. Reviewed and tested by a human.</p>
+        <p>Next.js, TypeScript, Kotlin, and practical test coverage.</p>
         <a href="https://github.com/ramadhanghazy">@ramadhanghazy ↗</a>
       </div>
     </footer>

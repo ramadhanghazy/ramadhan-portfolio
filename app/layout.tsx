@@ -13,21 +13,19 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://ramadhan-ghazy-portfolio.lush-note-3494.chatgpt.site"),
   title: {
-    default: "Ramadhan Ghazy Henanto — AI-assisted web builder",
+    default: "Ramadhan Ghazy Henanto — Software projects",
     template: "%s — Ramadhan Ghazy Henanto",
   },
   description:
-    "Web apps, dashboards, and automation built with AI assistance, verified with real tests and careful human review.",
+    "Internal tools, dashboards, and small web applications by Ramadhan Ghazy Henanto.",
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",
   },
   openGraph: {
-    title: "Ramadhan Ghazy Henanto — AI-assisted web builder",
-    description: "Useful software, careful verification, clear handoff.",
-    images: ["/og.png"],
+    title: "Ramadhan Ghazy Henanto — Software projects",
+    description: "Internal tools, dashboards, and small web applications.",
   },
 };
 

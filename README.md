@@ -1,8 +1,6 @@
 # Ramadhan Ghazy Henanto — Portfolio
 
-A public portfolio built around working software and verifiable engineering evidence.
-
-**Live site:** [ramadhan-ghazy-portfolio.lush-note-3494.chatgpt.site](https://ramadhan-ghazy-portfolio.lush-note-3494.chatgpt.site)
+A portfolio containing a working web dashboard and an Android case study.
 
 ## What is included
 

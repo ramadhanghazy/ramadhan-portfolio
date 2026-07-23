@@ -1,8 +1,6 @@
 # Upwork Portfolio Pack
 
-Copy is written in English for global small-business clients. The role description stays explicit about AI assistance and human verification.
-
-**Live portfolio:** https://ramadhan-ghazy-portfolio.lush-note-3494.chatgpt.site
+Copy is written in English for global small-business clients.
 
 ## Project 1 — ClientOps
 
@@ -12,11 +10,11 @@ Sales Pipeline Dashboard with Filtering, Metrics, and CSV Export
 
 **Role**
 
-Independent builder — AI-assisted implementation, product decisions, testing, and final QA
+Independent builder — product decisions, implementation, testing, and final QA
 
 **Description**
 
-I built ClientOps as a focused sales pipeline workspace for a small team that needs to see momentum and next actions without wrestling with a large spreadsheet.
+I built ClientOps as a sales pipeline workspace for a small team that needs to review lead status and next actions without working through a large spreadsheet.
 
 The responsive dashboard combines pipeline value, active leads, win rate, overdue follow-ups, stage distribution, and a detailed opportunity list. Users can search by company or contact, filter by stage, source, and owner, sort the results, inspect each lead in a side drawer, and export the currently filtered view to CSV.
 
@@ -42,7 +40,7 @@ Local-First Android Reading and Listening App
 
 **Role**
 
-Independent builder — AI-assisted implementation, architecture review, testing, and final QA
+Independent builder — Android implementation, architecture review, testing, and final QA
 
 **Description**
 
@@ -63,4 +61,4 @@ Kotlin, Android, Jetpack Compose, Room Database, Media3, WorkManager, Coroutines
 
 ## Short profile positioning
 
-I build practical dashboards, internal web tools, and workflow automation with AI-assisted implementation and hands-on human review. I focus on clear scope, useful states, safe data handling, responsive behavior, and tests that verify the final result.
+I build dashboards, internal web tools, and workflow automation. I focus on clear scope, safe data handling, responsive behavior, and tests that verify the final result.
