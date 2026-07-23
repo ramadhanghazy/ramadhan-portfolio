@@ -22,7 +22,7 @@ export default function Home() {
       <main className="home-main">
         <section className="home-intro wrap">
           <div>
-            <p className="home-kicker">RAMADHAN GHAZY HENANTO</p>
+            <p className="home-kicker">PORTFOLIO</p>
             <h1>Internal tools, dashboards, and small web apps.</h1>
           </div>
           <div className="home-intro-copy">
@@ -35,19 +35,14 @@ export default function Home() {
         </section>
 
         <section className="home-projects wrap" id="work">
-          <header className="home-section-header">
-            <h2>Selected projects</h2>
-            <span>02 projects</span>
-          </header>
-
           <div className="home-project-grid">
             <article className="home-project-card">
-              <Link className="home-project-media" href="/clientops" aria-label="Open ClientOps live dashboard">
+              <Link className="home-project-media home-project-media-dashboard" href="/clientops" aria-label="Open ClientOps live dashboard">
                 <Image
-                  src="/clientops-preview.png"
-                  alt="ClientOps sales pipeline dashboard"
-                  width={1440}
-                  height={900}
+                  src="/clientops-card-preview.png"
+                  alt="ClientOps pipeline metrics and stage distribution"
+                  width={1320}
+                  height={503}
                   priority
                 />
               </Link>
