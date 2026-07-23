@@ -75,7 +75,7 @@ export default function Home() {
                 <div className="project-meta"><span>FLAGSHIP · WEB APPLICATION</span><span>2026</span></div>
                 <h3>ClientOps</h3>
                 <p>A compact sales pipeline dashboard that turns scattered lead activity into a clear daily operating view.</p>
-                <ul className="tag-list"><li>Next.js</li><li>TypeScript</li><li>D1</li><li>API design</li><li>Testing</li></ul>
+                <ul className="tag-list"><li>Next.js</li><li>TypeScript</li><li>Pages Functions</li><li>API design</li><li>Testing</li></ul>
                 <div className="card-links">
                   <Link href="/clientops">Open live product ↗</Link>
                   <Link href="/work/clientops">Read case study →</Link>

@@ -2,23 +2,24 @@
 
 A portfolio containing a working web dashboard and an Android case study.
 
+Live site: [ramadhanghazy.pages.dev](https://ramadhanghazy.pages.dev)
+
 ## What is included
 
 - `/` — portfolio home and selected work
 - `/clientops` — interactive sales pipeline dashboard
 - `/work/clientops` — ClientOps product and engineering case study
 - `/work/bacadengar` — case study for a private Android reading and listening app
-- `/api/leads` — validated, searchable, filterable, sortable lead list
-- `/api/metrics` — pipeline KPI and stage aggregates
-- `/api/leads/export.csv` — CSV export that follows active filters
+- `/api/leads` — Cloudflare Pages Function for validated, searchable, sortable lead lists
+- `/api/metrics` — Cloudflare Pages Function for pipeline KPIs
+- `/api/leads/export.csv` — Cloudflare Pages Function for filtered CSV export
 
 ClientOps uses 60 synthetic records. No real customer or personal data is included.
 
 ## Stack
 
 - Next.js and TypeScript
-- Cloudflare Workers through vinext
-- Cloudflare D1 with Drizzle migrations
+- Cloudflare Pages and Pages Functions
 - Node test runner and Playwright Core for verification
 
 ## Run locally
@@ -39,7 +40,7 @@ npm run lint
 npm test
 ```
 
-`npm test` creates a production build and runs the logic and endpoint-response test suite.
+`npm test` creates a static production build and runs the logic and endpoint-response test suite.
 
 ## Data and privacy
 

@@ -30,7 +30,7 @@ export default function ClientOpsCaseStudy() {
 
         <section className="case-summary wrap">
           <div><span>ROLE</span><p>Product scope, implementation, testing, and documentation</p></div>
-          <div><span>STACK</span><p>Next.js, TypeScript, D1, Cloudflare Workers</p></div>
+          <div><span>STACK</span><p>Next.js, TypeScript, Cloudflare Pages Functions</p></div>
           <div><span>FOCUS</span><p>Data clarity, responsive UX, export workflow, tests</p></div>
         </section>
 
@@ -52,11 +52,11 @@ export default function ClientOpsCaseStudy() {
         </section>
 
         <section className="case-section wrap">
-          <div className="section-heading"><div><p className="eyebrow">SYSTEM DESIGN</p><h2>Architecture</h2></div><p>D1 stores the lead records. Server routes return paginated lists, aggregate metrics, and filtered CSV output.</p></div>
+          <div className="section-heading"><div><p className="eyebrow">SYSTEM DESIGN</p><h2>Architecture</h2></div><p>Pages Functions validate requests and return paginated lists, aggregate metrics, and filtered CSV output from a synthetic dataset.</p></div>
           <div className="architecture" aria-label="ClientOps architecture diagram">
             <div><span>INTERFACE</span><strong>Responsive dashboard</strong><small>Filters · Table · Drawer · States</small></div><b>→</b>
-            <div><span>SERVER</span><strong>Next.js route handlers</strong><small>Validation · Metrics · CSV</small></div><b>→</b>
-            <div><span>DATA</span><strong>Cloudflare D1</strong><small>60 synthetic lead records</small></div>
+            <div><span>SERVER</span><strong>Cloudflare Pages Functions</strong><small>Validation · Metrics · CSV</small></div><b>→</b>
+            <div><span>DATA</span><strong>Synthetic dataset</strong><small>60 deterministic lead records</small></div>
           </div>
         </section>
 

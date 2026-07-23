@@ -1,5 +1,7 @@
 # Upwork Portfolio Pack
 
+**Live site:** https://ramadhanghazy.pages.dev
+
 Copy is written in English for global small-business clients.
 
 ## Project 1 — ClientOps
@@ -24,7 +26,7 @@ All 60 records are synthetic. No real customer data is used.
 
 **Skills**
 
-Next.js, TypeScript, API Development, Cloudflare Workers, Cloudflare D1, Dashboard Design, Data Visualization, Responsive Web Design, CSV, Software Testing
+Next.js, TypeScript, API Development, Cloudflare Pages, Dashboard Design, Data Visualization, Responsive Web Design, CSV, Software Testing
 
 **Suggested assets**
 

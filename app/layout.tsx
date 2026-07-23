@@ -13,6 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://ramadhanghazy.pages.dev"),
   title: {
     default: "Ramadhan Ghazy Henanto — Software projects",
     template: "%s — Ramadhan Ghazy Henanto",
@@ -26,6 +27,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Ramadhan Ghazy Henanto — Software projects",
     description: "Internal tools, dashboards, and small web applications.",
+    url: "/",
   },
 };
 

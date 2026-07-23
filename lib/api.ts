@@ -5,7 +5,7 @@ import {
   paginateLeads,
   parseLeadQuery,
   type Lead,
-} from "@/lib/leads";
+} from "./leads";
 
 function isValidationError(error: unknown) {
   return error instanceof Error && (
