@@ -24,6 +24,16 @@ export default function Home() {
           <div>
             <h1>Portfolio</h1>
             <p className="home-scope">Internal tools, dashboards, and small web apps.</p>
+            <nav className="home-project-index" aria-label="Featured projects">
+              <Link href="/clientops">
+                <ChartLineUp size={14} weight="regular" aria-hidden />
+                ClientOps
+              </Link>
+              <Link href="/work/bacadengar">
+                <DeviceMobile size={14} weight="regular" aria-hidden />
+                BacaDengar
+              </Link>
+            </nav>
           </div>
           <div className="home-intro-copy">
             <p>Two working examples covering a web dashboard and a private Android reading app.</p>

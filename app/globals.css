@@ -471,6 +471,31 @@ td > small { margin-top: 3px; color: #7e8986; }
   font-size: 14px;
   line-height: 1.45;
 }
+.home-project-index {
+  width: fit-content;
+  margin-top: 14px;
+  padding: 3px;
+  display: inline-flex;
+  gap: 2px;
+  border: 1px solid #e4e4e1;
+  border-radius: 8px;
+  background: #f0f0ee;
+}
+.home-project-index a {
+  min-height: 28px;
+  padding: 0 9px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border-radius: 6px;
+  color: #5d5d5d;
+  font-size: 12px;
+  font-weight: 500;
+}
+.home-project-index a:hover {
+  background: white;
+  color: #292929;
+}
 .home-intro-copy {
   width: min(100%, 390px);
   justify-self: end;
