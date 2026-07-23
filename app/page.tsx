@@ -84,12 +84,18 @@ export default function Home() {
             </article>
 
             <article className="project-card">
-              <div className="project-visual baca-visual">
+              <div className="project-visual baca-visual" style={{ background: "#f8f5ef" }}>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="/bacadengar-hero.png" alt="BacaDengar private Android reading and listening app" width="1200" height="675" />
+                <img
+                  src="/bacadengar-hero.png"
+                  alt="BacaDengar private Android reading and listening app"
+                  width="1200"
+                  height="675"
+                  style={{ objectFit: "contain" }}
+                />
               </div>
               <div className="project-body">
-                <div className="project-meta"><span>PRIVATE ANDROID APPLICATION</span><span>2026</span></div>
+                <div className="project-meta" style={{ gap: "16px" }}><span>PRIVATE ANDROID APPLICATION</span><span>2026</span></div>
                 <h3>BacaDengar</h3>
                 <p>A local-first reading and listening app designed around continuity, privacy, and calm long-form sessions.</p>
                 <ul className="tag-list"><li>Kotlin</li><li>Jetpack Compose</li><li>Room</li><li>Media3</li><li>WorkManager</li></ul>
