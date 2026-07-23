@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://ramadhan-ghazy-portfolio.sites.openai.com"),
+  metadataBase: new URL("https://ramadhan-ghazy-portfolio.lush-note-3494.chatgpt.site"),
   title: {
     default: "Ramadhan Ghazy Henanto — AI-assisted web builder",
     template: "%s — Ramadhan Ghazy Henanto",

@@ -2,6 +2,8 @@
 
 A public portfolio built around working software and verifiable engineering evidence.
 
+**Live site:** [ramadhan-ghazy-portfolio.lush-note-3494.chatgpt.site](https://ramadhan-ghazy-portfolio.lush-note-3494.chatgpt.site)
+
 ## What is included
 
 - `/` — portfolio home and selected work

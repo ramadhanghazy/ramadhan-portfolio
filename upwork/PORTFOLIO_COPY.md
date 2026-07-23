@@ -2,6 +2,8 @@
 
 Copy is written in English for global small-business clients. The role description stays explicit about AI assistance and human verification.
 
+**Live portfolio:** https://ramadhan-ghazy-portfolio.lush-note-3494.chatgpt.site
+
 ## Project 1 — ClientOps
 
 **Title**
